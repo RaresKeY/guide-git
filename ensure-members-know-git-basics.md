@@ -1,7 +1,3 @@
-# [ ] Ensure Members Know Git Basics
-
-Last reviewed: 2026-04-22
-
 This guide is a practical onboarding checklist for version control basics: local commits, branches, pushing, pulling, and pull requests.
 
 ## Outcomes
@@ -73,21 +69,21 @@ git branch -d feature/short-description
 
 ## Essential Commands
 
-| Task | Command |
-| --- | --- |
-| Initialize a repository | `git init` |
-| Clone an existing repository | `git clone <url>` |
-| See current state | `git status` |
-| See unstaged changes | `git diff` |
-| Stage changes | `git add <file>` |
-| Commit staged changes | `git commit -m "Message"` |
-| Show commit history | `git log --oneline --graph --decorate` |
-| Create and switch branch | `git switch -c <branch>` |
-| Switch branch | `git switch <branch>` |
-| List branches | `git branch` |
-| Push current branch | `git push -u origin <branch>` |
-| Pull remote updates | `git pull origin <branch>` |
-| See remotes | `git remote -v` |
+| Task                         | Command                                |
+| ---------------------------- | -------------------------------------- |
+| Initialize a repository      | `git init`                             |
+| Clone an existing repository | `git clone <url>`                      |
+| See current state            | `git status`                           |
+| See unstaged changes         | `git diff`                             |
+| Stage changes                | `git add <file>`                       |
+| Commit staged changes        | `git commit -m "Message"`              |
+| Show commit history          | `git log --oneline --graph --decorate` |
+| Create and switch branch     | `git switch -c <branch>`               |
+| Switch branch                | `git switch <branch>`                  |
+| List branches                | `git branch`                           |
+| Push current branch          | `git push -u origin <branch>`          |
+| Pull remote updates          | `git pull origin <branch>`             |
+| See remotes                  | `git remote -v`                        |
 
 ## Push, Pull, Branch, Pull Request
 
@@ -251,13 +247,13 @@ YouTube videos:
 
 ## Suggested 60-Minute Session
 
-| Time | Activity |
-| --- | --- |
-| 0-10 min | Explain Git vs GitHub, commits, branches, and remotes. |
-| 10-25 min | Demo `status`, `add`, `commit`, `log`, and `diff`. |
+| Time      | Activity                                               |
+| --------- | ------------------------------------------------------ |
+| 0-10 min  | Explain Git vs GitHub, commits, branches, and remotes. |
+| 10-25 min | Demo `status`, `add`, `commit`, `log`, and `diff`.     |
 | 25-40 min | Demo branch creation, push, and pull request creation. |
-| 40-55 min | Members complete the practice lab. |
-| 55-60 min | Review readiness checklist and answer blockers. |
+| 40-55 min | Members complete the practice lab.                     |
+| 55-60 min | Review readiness checklist and answer blockers.        |
 
 ## Definition of Done
 
